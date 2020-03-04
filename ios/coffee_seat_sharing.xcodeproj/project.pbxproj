@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* coffee_seat_sharingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* coffee_seat_sharingTests.m */; };
+		1090859D5CBE2C4A4268779D /* libPods-coffee_seat_sharingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947FD6DF3D31DA0C049F4C1 /* libPods-coffee_seat_sharingTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +15,40 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* coffee_seat_sharingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* coffee_seat_sharingTests.m */; };
-		51956ECCA617830A73102F34 /* libPods-coffee_seat_sharing-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BC1A7E196D9BFB0785D23C /* libPods-coffee_seat_sharing-tvOS.a */; };
-		C9ABDA6B29F01D57FB17AF31 /* libPods-coffee_seat_sharingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF8A51224156B0CF107E8EE /* libPods-coffee_seat_sharingTests.a */; };
-		E04482909A33AD8AFC1C899C /* libPods-coffee_seat_sharing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 092AF7BEB456C3A4B245CC00 /* libPods-coffee_seat_sharing.a */; };
-		F90B072B5FEF7F0EFDB07BDF /* libPods-coffee_seat_sharing-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9313A483557F9602740216 /* libPods-coffee_seat_sharing-tvOSTests.a */; };
+		3B27A18E8D3CE86A46598D29 /* libPods-coffee_seat_sharingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E74F3240F5C9000689798 /* libPods-coffee_seat_sharingTests.a */; };
+		A8DB1DEFDCF3A23B62AC7716 /* libPods-coffee_seat_sharing-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E74EF240F5C9000689798 /* libPods-coffee_seat_sharing-tvOSTests.a */; };
+		B5065AC35955EDC8FA0C5B65 /* libPods-coffee_seat_sharing-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E74ED240F5C9000689798 /* libPods-coffee_seat_sharing-tvOS.a */; };
+		B88DB9642AEFD3F67B31F82D /* libPods-coffee_seat_sharing-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D956BC839F185BCE849292B /* libPods-coffee_seat_sharing-tvOSTests.a */; };
+		E2632A45CE1CFA0BD4EE66CC /* libPods-coffee_seat_sharing-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D2BEA826621845B3CDF0B9 /* libPods-coffee_seat_sharing-tvOS.a */; };
+		EC5E74D2240EC24800689798 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
+		EC5E74D7240EC55D00689798 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
+		EC5E752A240F5FD100689798 /* libDoubleConversion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7529240F5FD100689798 /* libDoubleConversion.a */; };
+		EC5E752C240F5FD100689798 /* libFBReactNativeSpec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E752B240F5FD100689798 /* libFBReactNativeSpec.a */; };
+		EC5E7530240F5FD100689798 /* libglog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E752F240F5FD100689798 /* libglog.a */; };
+		EC5E7532240F5FD100689798 /* libkakao-login.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7531240F5FD100689798 /* libkakao-login.a */; };
+		EC5E7538240F5FD100689798 /* libPods-coffee_seat_sharing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7537240F5FD100689798 /* libPods-coffee_seat_sharing.a */; };
+		EC5E753C240F5FD100689798 /* libRCTTypeSafety.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E753B240F5FD100689798 /* libRCTTypeSafety.a */; };
+		EC5E753E240F5FD100689798 /* libReact-Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E753D240F5FD100689798 /* libReact-Core.a */; };
+		EC5E7540240F5FD100689798 /* libReact-CoreModules.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E753F240F5FD100689798 /* libReact-CoreModules.a */; };
+		EC5E7542240F5FD100689798 /* libReact-cxxreact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7541240F5FD100689798 /* libReact-cxxreact.a */; };
+		EC5E7544240F5FD100689798 /* libReact-jsi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7543240F5FD100689798 /* libReact-jsi.a */; };
+		EC5E7546240F5FD100689798 /* libReact-jsiexecutor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7545240F5FD100689798 /* libReact-jsiexecutor.a */; };
+		EC5E7548240F5FD100689798 /* libReact-jsinspector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7547240F5FD100689798 /* libReact-jsinspector.a */; };
+		EC5E754A240F5FD100689798 /* libReact-RCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7549240F5FD100689798 /* libReact-RCTActionSheet.a */; };
+		EC5E754C240F5FD100689798 /* libReact-RCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E754B240F5FD100689798 /* libReact-RCTAnimation.a */; };
+		EC5E754E240F5FD100689798 /* libReact-RCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E754D240F5FD100689798 /* libReact-RCTBlob.a */; };
+		EC5E7550240F5FD100689798 /* libReact-RCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E754F240F5FD100689798 /* libReact-RCTImage.a */; };
+		EC5E7552240F5FD100689798 /* libReact-RCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7551240F5FD100689798 /* libReact-RCTLinking.a */; };
+		EC5E7554240F5FD100689798 /* libReact-RCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7553240F5FD100689798 /* libReact-RCTNetwork.a */; };
+		EC5E7556240F5FD100689798 /* libReact-RCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7555240F5FD100689798 /* libReact-RCTSettings.a */; };
+		EC5E7558240F5FD100689798 /* libReact-RCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7557240F5FD100689798 /* libReact-RCTText.a */; };
+		EC5E755A240F5FD100689798 /* libReact-RCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7559240F5FD100689798 /* libReact-RCTVibration.a */; };
+		EC5E755C240F5FD100689798 /* libReactCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E755B240F5FD100689798 /* libReactCommon.a */; };
+		EC5E755E240F5FD100689798 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E755D240F5FD100689798 /* libRNGestureHandler.a */; };
+		EC5E7560240F5FD100689798 /* libRNReanimated.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E755F240F5FD100689798 /* libRNReanimated.a */; };
+		EC5E7562240F5FD100689798 /* libYoga.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7561240F5FD100689798 /* libYoga.a */; };
+		EC5E7568240F62B300689798 /* libFolly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7567240F62B300689798 /* libFolly.a */; };
+		EC8C6B8D240EA2940038C639 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8C6B8C240EA2940038C639 /* KakaoOpenSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +71,7 @@
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* coffee_seat_sharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coffee_seat_sharingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* coffee_seat_sharingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coffee_seat_sharingTests.m; sourceTree = "<group>"; };
-		092AF7BEB456C3A4B245CC00 /* libPods-coffee_seat_sharing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coffee_seat_sharing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1218C4AD6AD5301CEC43F719 /* libPods-coffee_seat_sharing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coffee_seat_sharing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* coffee_seat_sharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coffee_seat_sharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = coffee_seat_sharing/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = coffee_seat_sharing/AppDelegate.m; sourceTree = "<group>"; };
@@ -52,21 +79,84 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = coffee_seat_sharing/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = coffee_seat_sharing/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = coffee_seat_sharing/main.m; sourceTree = "<group>"; };
-		1C5261388BAE305902F8C74C /* Pods-coffee_seat_sharingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharingTests.release.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharingTests/Pods-coffee_seat_sharingTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D8692B90E8ABA81BB41C242 /* Pods-coffee_seat_sharing-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharing-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharing-tvOSTests/Pods-coffee_seat_sharing-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		226632A8800B763A55F4E0EE /* Pods-coffee_seat_sharingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharingTests.release.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharingTests/Pods-coffee_seat_sharingTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* coffee_seat_sharing-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coffee_seat_sharing-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* coffee_seat_sharing-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coffee_seat_sharing-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CF8A51224156B0CF107E8EE /* libPods-coffee_seat_sharingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coffee_seat_sharingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5645113440A62E7ABB72009C /* Pods-coffee_seat_sharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharing.release.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharing/Pods-coffee_seat_sharing.release.xcconfig"; sourceTree = "<group>"; };
-		5C574FA9B416B3C163F5D919 /* Pods-coffee_seat_sharing-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharing-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharing-tvOSTests/Pods-coffee_seat_sharing-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		77FF6FC70EEA11565F313E7E /* Pods-coffee_seat_sharing-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharing-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharing-tvOSTests/Pods-coffee_seat_sharing-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B465749CCE239DFF2B52B67B /* Pods-coffee_seat_sharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharingTests.debug.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharingTests/Pods-coffee_seat_sharingTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C8BC1A7E196D9BFB0785D23C /* libPods-coffee_seat_sharing-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coffee_seat_sharing-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1C82143516B2A09F57B2E73 /* Pods-coffee_seat_sharing-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharing-tvOS.release.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharing-tvOS/Pods-coffee_seat_sharing-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		E9B82B87C9C05637AA874C9D /* Pods-coffee_seat_sharing-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharing-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharing-tvOS/Pods-coffee_seat_sharing-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		EC9313A483557F9602740216 /* libPods-coffee_seat_sharing-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coffee_seat_sharing-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E7D527DAF0F469BB4A4932 /* Pods-coffee_seat_sharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharing.debug.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharing/Pods-coffee_seat_sharing.debug.xcconfig"; sourceTree = "<group>"; };
+		3AA7C361336CB1D0CBB1A70D /* Pods-coffee_seat_sharing-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharing-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharing-tvOSTests/Pods-coffee_seat_sharing-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4947FD6DF3D31DA0C049F4C1 /* libPods-coffee_seat_sharingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coffee_seat_sharingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D956BC839F185BCE849292B /* libPods-coffee_seat_sharing-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coffee_seat_sharing-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7013ADBFC7A92B64124DE190 /* Pods-coffee_seat_sharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharing.release.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharing/Pods-coffee_seat_sharing.release.xcconfig"; sourceTree = "<group>"; };
+		81F6A053152244B3AFFB4794 /* Pods-coffee_seat_sharing-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharing-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharing-tvOS/Pods-coffee_seat_sharing-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		83A53119245873142F10C67B /* Pods-coffee_seat_sharing-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharing-tvOS.release.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharing-tvOS/Pods-coffee_seat_sharing-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		8D57AA4D2ED7F938ECB65EE6 /* Pods-coffee_seat_sharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharingTests.debug.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharingTests/Pods-coffee_seat_sharingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5E74E3240F5C9000689798 /* libDoubleConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E74E5240F5C9000689798 /* libFBReactNativeSpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFBReactNativeSpec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E74E7240F5C9000689798 /* libFolly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFolly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E74E9240F5C9000689798 /* libglog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E74EB240F5C9000689798 /* libkakao-login.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libkakao-login.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E74ED240F5C9000689798 /* libPods-coffee_seat_sharing-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-coffee_seat_sharing-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E74EF240F5C9000689798 /* libPods-coffee_seat_sharing-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-coffee_seat_sharing-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E74F1240F5C9000689798 /* libPods-coffee_seat_sharing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-coffee_seat_sharing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E74F3240F5C9000689798 /* libPods-coffee_seat_sharingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-coffee_seat_sharingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E74F5240F5C9000689798 /* libRCTTypeSafety.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRCTTypeSafety.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E74F7240F5C9000689798 /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E74F9240F5C9000689798 /* libReact-CoreModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-CoreModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E74FB240F5C9000689798 /* libReact-cxxreact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-cxxreact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E74FD240F5C9000689798 /* libReact-jsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E74FF240F5C9000689798 /* libReact-jsiexecutor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsiexecutor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7501240F5C9000689798 /* libReact-jsinspector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsinspector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7503240F5C9000689798 /* libReact-RCTActionSheet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTActionSheet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7505240F5C9000689798 /* libReact-RCTAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7507240F5C9000689798 /* libReact-RCTBlob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTBlob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7509240F5C9000689798 /* libReact-RCTImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E750B240F5C9000689798 /* libReact-RCTLinking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTLinking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E750D240F5C9000689798 /* libReact-RCTNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E750F240F5C9000689798 /* libReact-RCTSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7511240F5C9000689798 /* libReact-RCTText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7513240F5C9000689798 /* libReact-RCTVibration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTVibration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7515240F5C9000689798 /* libReactCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7517240F5C9000689798 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7519240F5C9000689798 /* libRNReanimated.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNReanimated.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E751B240F5C9000689798 /* libYoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E751D240F5D3600689798 /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E751F240F5D3600689798 /* libReact-cxxreact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-cxxreact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7521240F5D3600689798 /* libReact-RCTText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7523240F5D3600689798 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7525240F5D3600689798 /* libRNReanimated.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNReanimated.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7527240F5FA900689798 /* libYoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7529240F5FD100689798 /* libDoubleConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E752B240F5FD100689798 /* libFBReactNativeSpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFBReactNativeSpec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E752D240F5FD100689798 /* libFolly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFolly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E752F240F5FD100689798 /* libglog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglog.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7531240F5FD100689798 /* libkakao-login.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libkakao-login.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7537240F5FD100689798 /* libPods-coffee_seat_sharing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-coffee_seat_sharing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E753B240F5FD100689798 /* libRCTTypeSafety.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRCTTypeSafety.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E753D240F5FD100689798 /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E753F240F5FD100689798 /* libReact-CoreModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-CoreModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7541240F5FD100689798 /* libReact-cxxreact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-cxxreact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7543240F5FD100689798 /* libReact-jsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7545240F5FD100689798 /* libReact-jsiexecutor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsiexecutor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7547240F5FD100689798 /* libReact-jsinspector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsinspector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7549240F5FD100689798 /* libReact-RCTActionSheet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTActionSheet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E754B240F5FD100689798 /* libReact-RCTAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E754D240F5FD100689798 /* libReact-RCTBlob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTBlob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E754F240F5FD100689798 /* libReact-RCTImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7551240F5FD100689798 /* libReact-RCTLinking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTLinking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7553240F5FD100689798 /* libReact-RCTNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7555240F5FD100689798 /* libReact-RCTSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7557240F5FD100689798 /* libReact-RCTText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7559240F5FD100689798 /* libReact-RCTVibration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTVibration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E755B240F5FD100689798 /* libReactCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E755D240F5FD100689798 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E755F240F5FD100689798 /* libRNReanimated.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNReanimated.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7561240F5FD100689798 /* libYoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5E7567240F62B300689798 /* libFolly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFolly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8C6B8C240EA2940038C639 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F615FBE766980D74C5FA0EDD /* Pods-coffee_seat_sharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharing.debug.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharing/Pods-coffee_seat_sharing.debug.xcconfig"; sourceTree = "<group>"; };
+		F6D2BEA826621845B3CDF0B9 /* libPods-coffee_seat_sharing-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coffee_seat_sharing-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +164,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9ABDA6B29F01D57FB17AF31 /* libPods-coffee_seat_sharingTests.a in Frameworks */,
+				1090859D5CBE2C4A4268779D /* libPods-coffee_seat_sharingTests.a in Frameworks */,
+				3B27A18E8D3CE86A46598D29 /* libPods-coffee_seat_sharingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +173,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E04482909A33AD8AFC1C899C /* libPods-coffee_seat_sharing.a in Frameworks */,
+				EC5E7568240F62B300689798 /* libFolly.a in Frameworks */,
+				EC5E752A240F5FD100689798 /* libDoubleConversion.a in Frameworks */,
+				EC5E752C240F5FD100689798 /* libFBReactNativeSpec.a in Frameworks */,
+				EC5E7530240F5FD100689798 /* libglog.a in Frameworks */,
+				EC5E7532240F5FD100689798 /* libkakao-login.a in Frameworks */,
+				EC5E7538240F5FD100689798 /* libPods-coffee_seat_sharing.a in Frameworks */,
+				EC5E753C240F5FD100689798 /* libRCTTypeSafety.a in Frameworks */,
+				EC5E753E240F5FD100689798 /* libReact-Core.a in Frameworks */,
+				EC5E7540240F5FD100689798 /* libReact-CoreModules.a in Frameworks */,
+				EC5E7542240F5FD100689798 /* libReact-cxxreact.a in Frameworks */,
+				EC5E7544240F5FD100689798 /* libReact-jsi.a in Frameworks */,
+				EC5E7546240F5FD100689798 /* libReact-jsiexecutor.a in Frameworks */,
+				EC5E7548240F5FD100689798 /* libReact-jsinspector.a in Frameworks */,
+				EC5E754A240F5FD100689798 /* libReact-RCTActionSheet.a in Frameworks */,
+				EC5E754C240F5FD100689798 /* libReact-RCTAnimation.a in Frameworks */,
+				EC5E754E240F5FD100689798 /* libReact-RCTBlob.a in Frameworks */,
+				EC5E7550240F5FD100689798 /* libReact-RCTImage.a in Frameworks */,
+				EC5E7552240F5FD100689798 /* libReact-RCTLinking.a in Frameworks */,
+				EC5E7554240F5FD100689798 /* libReact-RCTNetwork.a in Frameworks */,
+				EC5E7556240F5FD100689798 /* libReact-RCTSettings.a in Frameworks */,
+				EC5E7558240F5FD100689798 /* libReact-RCTText.a in Frameworks */,
+				EC5E755A240F5FD100689798 /* libReact-RCTVibration.a in Frameworks */,
+				EC5E755C240F5FD100689798 /* libReactCommon.a in Frameworks */,
+				EC5E755E240F5FD100689798 /* libRNGestureHandler.a in Frameworks */,
+				EC5E7560240F5FD100689798 /* libRNReanimated.a in Frameworks */,
+				EC5E7562240F5FD100689798 /* libYoga.a in Frameworks */,
+				EC5E74D2240EC24800689798 /* JavaScriptCore.framework in Frameworks */,
+				EC8C6B8D240EA2940038C639 /* KakaoOpenSDK.framework in Frameworks */,
+				EC5E74D7240EC55D00689798 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +209,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51956ECCA617830A73102F34 /* libPods-coffee_seat_sharing-tvOS.a in Frameworks */,
+				E2632A45CE1CFA0BD4EE66CC /* libPods-coffee_seat_sharing-tvOS.a in Frameworks */,
+				B5065AC35955EDC8FA0C5B65 /* libPods-coffee_seat_sharing-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,30 +218,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F90B072B5FEF7F0EFDB07BDF /* libPods-coffee_seat_sharing-tvOSTests.a in Frameworks */,
+				B88DB9642AEFD3F67B31F82D /* libPods-coffee_seat_sharing-tvOSTests.a in Frameworks */,
+				A8DB1DEFDCF3A23B62AC7716 /* libPods-coffee_seat_sharing-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* coffee_seat_sharingTests */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F21AD99517003FC87E /* coffee_seat_sharingTests.m */,
-				00E356F01AD99517003FC87E /* Supporting Files */,
-			);
-			path = coffee_seat_sharingTests;
-			sourceTree = "<group>";
-		};
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* coffee_seat_sharing */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,30 +243,74 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC5E7567240F62B300689798 /* libFolly.a */,
+				EC5E7529240F5FD100689798 /* libDoubleConversion.a */,
+				EC5E752B240F5FD100689798 /* libFBReactNativeSpec.a */,
+				EC5E752D240F5FD100689798 /* libFolly.a */,
+				EC5E752F240F5FD100689798 /* libglog.a */,
+				EC5E7531240F5FD100689798 /* libkakao-login.a */,
+				EC5E7537240F5FD100689798 /* libPods-coffee_seat_sharing.a */,
+				EC5E753B240F5FD100689798 /* libRCTTypeSafety.a */,
+				EC5E753D240F5FD100689798 /* libReact-Core.a */,
+				EC5E753F240F5FD100689798 /* libReact-CoreModules.a */,
+				EC5E7541240F5FD100689798 /* libReact-cxxreact.a */,
+				EC5E7543240F5FD100689798 /* libReact-jsi.a */,
+				EC5E7545240F5FD100689798 /* libReact-jsiexecutor.a */,
+				EC5E7547240F5FD100689798 /* libReact-jsinspector.a */,
+				EC5E7549240F5FD100689798 /* libReact-RCTActionSheet.a */,
+				EC5E754B240F5FD100689798 /* libReact-RCTAnimation.a */,
+				EC5E754D240F5FD100689798 /* libReact-RCTBlob.a */,
+				EC5E754F240F5FD100689798 /* libReact-RCTImage.a */,
+				EC5E7551240F5FD100689798 /* libReact-RCTLinking.a */,
+				EC5E7553240F5FD100689798 /* libReact-RCTNetwork.a */,
+				EC5E7555240F5FD100689798 /* libReact-RCTSettings.a */,
+				EC5E7557240F5FD100689798 /* libReact-RCTText.a */,
+				EC5E7559240F5FD100689798 /* libReact-RCTVibration.a */,
+				EC5E755B240F5FD100689798 /* libReactCommon.a */,
+				EC5E755D240F5FD100689798 /* libRNGestureHandler.a */,
+				EC5E755F240F5FD100689798 /* libRNReanimated.a */,
+				EC5E7561240F5FD100689798 /* libYoga.a */,
+				EC5E7527240F5FA900689798 /* libYoga.a */,
+				EC5E751D240F5D3600689798 /* libReact-Core.a */,
+				EC5E751F240F5D3600689798 /* libReact-cxxreact.a */,
+				EC5E7521240F5D3600689798 /* libReact-RCTText.a */,
+				EC5E7523240F5D3600689798 /* libRNGestureHandler.a */,
+				EC5E7525240F5D3600689798 /* libRNReanimated.a */,
+				EC5E74E3240F5C9000689798 /* libDoubleConversion.a */,
+				EC5E74E5240F5C9000689798 /* libFBReactNativeSpec.a */,
+				EC5E74E7240F5C9000689798 /* libFolly.a */,
+				EC5E74E9240F5C9000689798 /* libglog.a */,
+				EC5E74EB240F5C9000689798 /* libkakao-login.a */,
+				EC5E74F1240F5C9000689798 /* libPods-coffee_seat_sharing.a */,
+				EC5E74F5240F5C9000689798 /* libRCTTypeSafety.a */,
+				EC5E74F7240F5C9000689798 /* libReact-Core.a */,
+				EC5E74F9240F5C9000689798 /* libReact-CoreModules.a */,
+				EC5E74FB240F5C9000689798 /* libReact-cxxreact.a */,
+				EC5E74FD240F5C9000689798 /* libReact-jsi.a */,
+				EC5E74FF240F5C9000689798 /* libReact-jsiexecutor.a */,
+				EC5E7501240F5C9000689798 /* libReact-jsinspector.a */,
+				EC5E7503240F5C9000689798 /* libReact-RCTActionSheet.a */,
+				EC5E7505240F5C9000689798 /* libReact-RCTAnimation.a */,
+				EC5E7507240F5C9000689798 /* libReact-RCTBlob.a */,
+				EC5E7509240F5C9000689798 /* libReact-RCTImage.a */,
+				EC5E750B240F5C9000689798 /* libReact-RCTLinking.a */,
+				EC5E750D240F5C9000689798 /* libReact-RCTNetwork.a */,
+				EC5E750F240F5C9000689798 /* libReact-RCTSettings.a */,
+				EC5E7511240F5C9000689798 /* libReact-RCTText.a */,
+				EC5E7513240F5C9000689798 /* libReact-RCTVibration.a */,
+				EC5E7515240F5C9000689798 /* libReactCommon.a */,
+				EC5E7517240F5C9000689798 /* libRNGestureHandler.a */,
+				EC5E7519240F5C9000689798 /* libRNReanimated.a */,
+				EC5E751B240F5C9000689798 /* libYoga.a */,
+				EC8C6B8C240EA2940038C639 /* KakaoOpenSDK.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				092AF7BEB456C3A4B245CC00 /* libPods-coffee_seat_sharing.a */,
-				C8BC1A7E196D9BFB0785D23C /* libPods-coffee_seat_sharing-tvOS.a */,
-				EC9313A483557F9602740216 /* libPods-coffee_seat_sharing-tvOSTests.a */,
-				4CF8A51224156B0CF107E8EE /* libPods-coffee_seat_sharingTests.a */,
+				1218C4AD6AD5301CEC43F719 /* libPods-coffee_seat_sharing.a */,
+				F6D2BEA826621845B3CDF0B9 /* libPods-coffee_seat_sharing-tvOS.a */,
+				4D956BC839F185BCE849292B /* libPods-coffee_seat_sharing-tvOSTests.a */,
+				4947FD6DF3D31DA0C049F4C1 /* libPods-coffee_seat_sharingTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		33FEAEC3B3DC9E2CBFB6E1D0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F615FBE766980D74C5FA0EDD /* Pods-coffee_seat_sharing.debug.xcconfig */,
-				5645113440A62E7ABB72009C /* Pods-coffee_seat_sharing.release.xcconfig */,
-				E9B82B87C9C05637AA874C9D /* Pods-coffee_seat_sharing-tvOS.debug.xcconfig */,
-				E1C82143516B2A09F57B2E73 /* Pods-coffee_seat_sharing-tvOS.release.xcconfig */,
-				77FF6FC70EEA11565F313E7E /* Pods-coffee_seat_sharing-tvOSTests.debug.xcconfig */,
-				5C574FA9B416B3C163F5D919 /* Pods-coffee_seat_sharing-tvOSTests.release.xcconfig */,
-				B465749CCE239DFF2B52B67B /* Pods-coffee_seat_sharingTests.debug.xcconfig */,
-				1C5261388BAE305902F8C74C /* Pods-coffee_seat_sharingTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -177,10 +325,10 @@
 			children = (
 				13B07FAE1A68108700A75B9A /* coffee_seat_sharing */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* coffee_seat_sharingTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				33FEAEC3B3DC9E2CBFB6E1D0 /* Pods */,
+				9C14C704070A01216C1C3738 /* Pods */,
+				EC5E7566240F614600689798 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -198,6 +346,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9C14C704070A01216C1C3738 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35E7D527DAF0F469BB4A4932 /* Pods-coffee_seat_sharing.debug.xcconfig */,
+				7013ADBFC7A92B64124DE190 /* Pods-coffee_seat_sharing.release.xcconfig */,
+				81F6A053152244B3AFFB4794 /* Pods-coffee_seat_sharing-tvOS.debug.xcconfig */,
+				83A53119245873142F10C67B /* Pods-coffee_seat_sharing-tvOS.release.xcconfig */,
+				1D8692B90E8ABA81BB41C242 /* Pods-coffee_seat_sharing-tvOSTests.debug.xcconfig */,
+				3AA7C361336CB1D0CBB1A70D /* Pods-coffee_seat_sharing-tvOSTests.release.xcconfig */,
+				8D57AA4D2ED7F938ECB65EE6 /* Pods-coffee_seat_sharingTests.debug.xcconfig */,
+				226632A8800B763A55F4E0EE /* Pods-coffee_seat_sharingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC5E7566240F614600689798 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E74F3240F5C9000689798 /* libPods-coffee_seat_sharingTests.a */,
+				EC5E74ED240F5C9000689798 /* libPods-coffee_seat_sharing-tvOS.a */,
+				EC5E74EF240F5C9000689798 /* libPods-coffee_seat_sharing-tvOSTests.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +378,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "coffee_seat_sharingTests" */;
 			buildPhases = (
-				0F7855005619FC110A7FACF6 /* [CP] Check Pods Manifest.lock */,
+				B2A79790DFAAD356E03FE62D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,7 +397,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "coffee_seat_sharing" */;
 			buildPhases = (
-				166C0EB3212CDA7E4545322C /* [CP] Check Pods Manifest.lock */,
+				24E1C7361FBEA045F5A0C5AD /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -244,7 +417,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "coffee_seat_sharing-tvOS" */;
 			buildPhases = (
-				56D9E6554A1145DB22260C61 /* [CP] Check Pods Manifest.lock */,
+				9C7B99A7525F0C3274F1C9EC /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +437,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "coffee_seat_sharing-tvOSTests" */;
 			buildPhases = (
-				8B6D67F175FC327F52BF4585 /* [CP] Check Pods Manifest.lock */,
+				D5F9753578B226880219638C /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -285,7 +458,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -308,6 +481,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -373,29 +547,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0F7855005619FC110A7FACF6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-coffee_seat_sharingTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		166C0EB3212CDA7E4545322C /* [CP] Check Pods Manifest.lock */ = {
+		24E1C7361FBEA045F5A0C5AD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,7 +583,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		56D9E6554A1145DB22260C61 /* [CP] Check Pods Manifest.lock */ = {
+		9C7B99A7525F0C3274F1C9EC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,7 +605,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8B6D67F175FC327F52BF4585 /* [CP] Check Pods Manifest.lock */ = {
+		B2A79790DFAAD356E03FE62D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coffee_seat_sharingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F9753578B226880219638C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -520,7 +694,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* coffee_seat_sharingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +719,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* coffee_seat_sharingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,7 +752,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B465749CCE239DFF2B52B67B /* Pods-coffee_seat_sharingTests.debug.xcconfig */;
+			baseConfigurationReference = 8D57AA4D2ED7F938ECB65EE6 /* Pods-coffee_seat_sharingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -603,7 +775,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C5261388BAE305902F8C74C /* Pods-coffee_seat_sharingTests.release.xcconfig */;
+			baseConfigurationReference = 226632A8800B763A55F4E0EE /* Pods-coffee_seat_sharingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -623,16 +795,19 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F615FBE766980D74C5FA0EDD /* Pods-coffee_seat_sharing.debug.xcconfig */;
+			baseConfigurationReference = 35E7D527DAF0F469BB4A4932 /* Pods-coffee_seat_sharing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = coffee_seat_sharing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
+					"-all_load",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
@@ -643,15 +818,18 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5645113440A62E7ABB72009C /* Pods-coffee_seat_sharing.release.xcconfig */;
+			baseConfigurationReference = 7013ADBFC7A92B64124DE190 /* Pods-coffee_seat_sharing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = coffee_seat_sharing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
+					"-all_load",
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
@@ -662,7 +840,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9B82B87C9C05637AA874C9D /* Pods-coffee_seat_sharing-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 81F6A053152244B3AFFB4794 /* Pods-coffee_seat_sharing-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -690,7 +868,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1C82143516B2A09F57B2E73 /* Pods-coffee_seat_sharing-tvOS.release.xcconfig */;
+			baseConfigurationReference = 83A53119245873142F10C67B /* Pods-coffee_seat_sharing-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -718,7 +896,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77FF6FC70EEA11565F313E7E /* Pods-coffee_seat_sharing-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 1D8692B90E8ABA81BB41C242 /* Pods-coffee_seat_sharing-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -745,7 +923,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C574FA9B416B3C163F5D919 /* Pods-coffee_seat_sharing-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 3AA7C361336CB1D0CBB1A70D /* Pods-coffee_seat_sharing-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -774,6 +952,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -827,6 +1006,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
