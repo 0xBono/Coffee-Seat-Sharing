@@ -20,6 +20,7 @@
 		B5065AC35955EDC8FA0C5B65 /* libPods-coffee_seat_sharing-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E74ED240F5C9000689798 /* libPods-coffee_seat_sharing-tvOS.a */; };
 		B88DB9642AEFD3F67B31F82D /* libPods-coffee_seat_sharing-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D956BC839F185BCE849292B /* libPods-coffee_seat_sharing-tvOSTests.a */; };
 		E2632A45CE1CFA0BD4EE66CC /* libPods-coffee_seat_sharing-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6D2BEA826621845B3CDF0B9 /* libPods-coffee_seat_sharing-tvOS.a */; };
+		EC1A6750243DDD9E00751CFF /* libreact-native-safe-area-context.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1A674F243DDD9E00751CFF /* libreact-native-safe-area-context.a */; };
 		EC5E74D2240EC24800689798 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		EC5E74D7240EC55D00689798 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
 		EC5E752A240F5FD100689798 /* libDoubleConversion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7529240F5FD100689798 /* libDoubleConversion.a */; };
@@ -91,6 +92,7 @@
 		81F6A053152244B3AFFB4794 /* Pods-coffee_seat_sharing-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharing-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharing-tvOS/Pods-coffee_seat_sharing-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		83A53119245873142F10C67B /* Pods-coffee_seat_sharing-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharing-tvOS.release.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharing-tvOS/Pods-coffee_seat_sharing-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		8D57AA4D2ED7F938ECB65EE6 /* Pods-coffee_seat_sharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffee_seat_sharingTests.debug.xcconfig"; path = "Target Support Files/Pods-coffee_seat_sharingTests/Pods-coffee_seat_sharingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC1A674F243DDD9E00751CFF /* libreact-native-safe-area-context.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-safe-area-context.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5E74E3240F5C9000689798 /* libDoubleConversion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDoubleConversion.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5E74E5240F5C9000689798 /* libFBReactNativeSpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFBReactNativeSpec.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5E74E7240F5C9000689798 /* libFolly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFolly.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +177,7 @@
 			files = (
 				EC5E7568240F62B300689798 /* libFolly.a in Frameworks */,
 				EC5E752A240F5FD100689798 /* libDoubleConversion.a in Frameworks */,
+				EC1A6750243DDD9E00751CFF /* libreact-native-safe-area-context.a in Frameworks */,
 				EC5E752C240F5FD100689798 /* libFBReactNativeSpec.a in Frameworks */,
 				EC5E7530240F5FD100689798 /* libglog.a in Frameworks */,
 				EC5E7532240F5FD100689798 /* libkakao-login.a in Frameworks */,
@@ -256,6 +259,7 @@
 				EC5E7541240F5FD100689798 /* libReact-cxxreact.a */,
 				EC5E7543240F5FD100689798 /* libReact-jsi.a */,
 				EC5E7545240F5FD100689798 /* libReact-jsiexecutor.a */,
+				EC1A674F243DDD9E00751CFF /* libreact-native-safe-area-context.a */,
 				EC5E7547240F5FD100689798 /* libReact-jsinspector.a */,
 				EC5E7549240F5FD100689798 /* libReact-RCTActionSheet.a */,
 				EC5E754B240F5FD100689798 /* libReact-RCTAnimation.a */,
