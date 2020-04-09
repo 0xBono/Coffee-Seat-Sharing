@@ -1,24 +1,8 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import {
-  View,
-  StyleSheet,
-  Dimensions,
-  Text,
-  TouchableOpacity,
-} from 'react-native';
-
-const {width, height} = Dimensions.get('window');
-
-const guidelineBaseWidth = 375;
-const guidelineBaseHeight = 812;
-
-const scale = (size: number) => (width / guidelineBaseWidth) * size;
-const verticalScale = (size: number) => (height / guidelineBaseHeight) * size;
-const moderateScale = (size: number, factor = 0.5) =>
-  size + (scale(size) - size) * factor;
-
-export {scale, verticalScale, moderateScale};
+import {View, StyleSheet, Text, TouchableOpacity} from 'react-native';
+import {scale, verticalScale, moderateScale} from '../constants/size';
+import Color from '../constants/color';
 
 class Permission extends React.Component {
   render() {
@@ -59,7 +43,7 @@ class Permission extends React.Component {
               fontSize: moderateScale(14, 0.4),
               fontWeight: 'normal',
               lineHeight: moderateScale(20),
-              color: '#555555',
+              color: Color.Gray,
             }}>
             자리 예약 확인, 취소 알림 등
           </Text>
@@ -80,7 +64,7 @@ class Permission extends React.Component {
               fontSize: moderateScale(14, 0.4),
               fontWeight: 'normal',
               lineHeight: moderateScale(20),
-              color: '#555555',
+              color: Color.Gray,
             }}>
             내 주변 이용 가능한 카페 정보 표시
           </Text>
@@ -91,7 +75,7 @@ class Permission extends React.Component {
               fontSize: moderateScale(14, 0.4),
               fontWeight: 'normal',
               lineHeight: moderateScale(20),
-              color: '#555555',
+              color: Color.Gray,
             }}>
             릴레잇 서비스를 잘 이용하기 위해{'\n'}
             필요한 접근 권한을 꼭 확인해줘.
@@ -102,7 +86,7 @@ class Permission extends React.Component {
             style={{
               fontSize: moderateScale(16, 0.4),
               fontWeight: '500',
-              color: '#ffffff',
+              color: Color.White,
               lineHeight: moderateScale(24),
               justifyContent: 'center',
               alignSelf: 'center',
@@ -128,7 +112,7 @@ const styles = StyleSheet.create({
     height: verticalScale(1),
     marginTop: scale(40),
     alignSelf: 'center',
-    backgroundColor: '#C8C8C8',
+    backgroundColor: Color.Gray,
   },
   alertContainer: {
     marginTop: scale(40),
@@ -144,8 +128,8 @@ const styles = StyleSheet.create({
     marginTop: scale(100),
     borderRadius: 8,
 
-    backgroundColor: '#1f1f1f',
-    shadowColor: 'rgba(31, 31, 31, 0.4)',
+    backgroundColor: Color.Black,
+    shadowColor: Color.DarkShadow,
     shadowOffset: {
       width: 0,
       height: 4,
