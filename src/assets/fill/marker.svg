@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>ic/fill/marker</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic/fill/marker" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6" transform="translate(3.000000, 2.000000)">
+            <path d="M13,0 C5.82075,0 0,5.75678571 0,12.8571429 C0,16.7025 1.716,20.1439286 4.42108333,22.5 L11.6836422,28.8491923 C12.437484,29.5082281 13.562516,29.5082281 14.3163578,28.8491923 L21.5789167,22.5 L21.5789167,22.5 C24.284,20.1439286 26,16.7025 26,12.8571429 C26,5.75678571 20.17925,0 13,0 Z" id="Fill-1" fill="#FB6C37"></path>
+            <path d="M17,13 C17,15.209 15.209,17 13,17 C10.791,17 9,15.209 9,13 C9,10.791 10.791,9 13,9 C15.209,9 17,10.791 17,13" id="Fill-4" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

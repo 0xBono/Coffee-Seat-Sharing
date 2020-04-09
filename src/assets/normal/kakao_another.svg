@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>ic/fill/kakao_another</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic/fill/kakao_another" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#3D1E1F" cx="16" cy="16" r="12"></circle>
+        <circle id="Oval" stroke="#FBEE00" stroke-width="2" cx="21" cy="11" r="2"></circle>
+        <circle id="Oval" fill="#FBEE00" cx="16" cy="16" r="2"></circle>
+        <circle id="Oval-Copy" stroke="#FBEE00" stroke-width="2" cx="11" cy="11" r="2"></circle>
+        <circle id="Oval-Copy-2" stroke="#FBEE00" stroke-width="2" cx="11" cy="21" r="2"></circle>
+        <circle id="Oval-Copy-3" stroke="#FBEE00" stroke-width="2" cx="21" cy="21" r="2"></circle>
+        <rect id="Rectangle" fill="#FBEE00" x="10.25" y="13" width="1.5" height="6"></rect>
+        <rect id="Rectangle-Copy" fill="#FBEE00" x="20.25" y="13" width="1.5" height="6"></rect>
+        <rect id="Rectangle-Copy-2" fill="#FBEE00" transform="translate(15.460408, 16.303301) rotate(-315.000000) translate(-15.460408, -16.303301) " x="14.7104076" y="10.8033009" width="1.5" height="11"></rect>
+        <rect id="Rectangle-Copy-3" fill="#FBEE00" transform="translate(17.871320, 18.167514) rotate(-45.000000) translate(-17.871320, -18.167514) " x="17.1213203" y="15.6675144" width="1.5" height="5"></rect>
+    </g>
+</svg>
