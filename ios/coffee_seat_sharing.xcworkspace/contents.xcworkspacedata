@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:coffee_seat_sharing.xcodeproj">
+      location = "group:/Users/jimin/Documents/coffee-seat-sharing/ios/Relait.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
