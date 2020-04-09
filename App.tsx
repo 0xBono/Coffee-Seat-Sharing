@@ -7,11 +7,12 @@ import SafeAreaView from 'react-native-safe-area-view';
 
 import Account from './src/screens/Account';
 import Permission from './src/screens/Permission';
+import SeatUpload from './src/screens/SeatUpload';
 
 function Demo({navigation}) {
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle="light-content" />
+      <StatusBar barStyle="dark-content" />
       <Button
         title="카카오 로그인 페이지"
         onPress={() => navigation.navigate('Account')}
@@ -20,6 +21,11 @@ function Demo({navigation}) {
       <Button
         title="권한 동의 페이지"
         onPress={() => navigation.navigate('Permission')}
+        color="#000"
+      />
+      <Button
+        title="자리 업로드 페이지"
+        onPress={() => navigation.navigate('SeatUpload')}
         color="#000"
       />
     </SafeAreaView>
@@ -36,6 +42,7 @@ export default function App() {
           <Stack.Screen name="Demo" component={Demo} />
           <Stack.Screen name="Account" component={Account} />
           <Stack.Screen name="Permission" component={Permission} />
+          <Stack.Screen name="SeatUpload" component={SeatUpload} />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
