@@ -319,7 +319,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* coffee_seat_sharing */ = {
+		13B07FAE1A68108700A75B9A /* Relait */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -330,7 +330,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = coffee_seat_sharing;
+			name = Relait;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -417,7 +417,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* coffee_seat_sharing */,
+				13B07FAE1A68108700A75B9A /* Relait */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
@@ -910,12 +910,12 @@
 				INFOPLIST_FILE = coffee_seat_sharing/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.coffee-seat-sharing-moon";
+				PRODUCT_BUNDLE_IDENTIFIER = org.coffee.seat.sharing.relait;
 				PRODUCT_NAME = Relait;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -935,12 +935,12 @@
 				INFOPLIST_FILE = coffee_seat_sharing/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.coffee-seat-sharing-moon";
+				PRODUCT_BUNDLE_IDENTIFIER = org.coffee.seat.sharing.relait;
 				PRODUCT_NAME = Relait;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
