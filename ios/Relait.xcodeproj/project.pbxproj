@@ -26,6 +26,7 @@
 		EC1A6766243DE7E500751CFF /* libreact-native-safe-area-context.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1A674F243DDD9E00751CFF /* libreact-native-safe-area-context.a */; };
 		EC1A6767243DE7E500751CFF /* libreact-native-safe-area-context.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1A674F243DDD9E00751CFF /* libreact-native-safe-area-context.a */; };
 		EC1A6768243DE7E500751CFF /* libreact-native-safe-area-context.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1A674F243DDD9E00751CFF /* libreact-native-safe-area-context.a */; };
+		ECD6E2B624405BDF00E45AC6 /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD6E2B524405BDF00E45AC6 /* libRNSVG.a */; };
 		ECE883A8243DEFE2005D6A88 /* libFolly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7567240F62B300689798 /* libFolly.a */; };
 		ECE883A9243DEFE2005D6A88 /* libDoubleConversion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E7529240F5FD100689798 /* libDoubleConversion.a */; };
 		ECE883AA243DEFE2005D6A88 /* libFBReactNativeSpec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E752B240F5FD100689798 /* libFBReactNativeSpec.a */; };
@@ -199,6 +200,7 @@
 		EC5E7561240F5FD100689798 /* libYoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5E7567240F62B300689798 /* libFolly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFolly.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8C6B8C240EA2940038C639 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KakaoOpenSDK.framework; sourceTree = "<group>"; };
+		ECD6E2B524405BDF00E45AC6 /* libRNSVG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNSVG.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EE99E08D689004323566F654 /* libPods-Relait-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Relait-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -282,6 +284,7 @@
 				ECE883E1243DEFE3005D6A88 /* libRNGestureHandler.a in Frameworks */,
 				ECE883E2243DEFE3005D6A88 /* libRNReanimated.a in Frameworks */,
 				ECE883E3243DEFE3005D6A88 /* libYoga.a in Frameworks */,
+				ECD6E2B624405BDF00E45AC6 /* libRNSVG.a in Frameworks */,
 				6290F11DBC03FA0F18E72901 /* libPods-Relait.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +334,7 @@
 				EC5E752B240F5FD100689798 /* libFBReactNativeSpec.a */,
 				EC5E752D240F5FD100689798 /* libFolly.a */,
 				EC5E752F240F5FD100689798 /* libglog.a */,
+				ECD6E2B524405BDF00E45AC6 /* libRNSVG.a */,
 				EC5E7531240F5FD100689798 /* libkakao-login.a */,
 				EC5E753B240F5FD100689798 /* libRCTTypeSafety.a */,
 				EC5E753D240F5FD100689798 /* libReact-Core.a */,
